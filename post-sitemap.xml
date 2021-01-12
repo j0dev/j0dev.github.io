@@ -8,8 +8,16 @@
     </url>
 
     <url>
+        <loc>https://j0dev.github.io/2021/01/09/swmaestro-4/</loc>
+        <lastmod>2021-01-12T08:19:06.027Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://j0dev.github.io/2021/01/08/swmaestro-3/</loc>
-        <lastmod>2021-01-09T06:06:53.936Z</lastmod>
+        <lastmod>2021-01-12T08:19:01.149Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -17,7 +25,7 @@
 
     <url>
         <loc>https://j0dev.github.io/2020/10/28/swmaestro-2/</loc>
-        <lastmod>2021-01-08T08:32:06.438Z</lastmod>
+        <lastmod>2021-01-12T08:18:55.376Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -25,7 +33,7 @@
 
     <url>
         <loc>https://j0dev.github.io/2020/10/27/swmaestro-1/</loc>
-        <lastmod>2021-01-08T07:40:27.624Z</lastmod>
+        <lastmod>2021-01-12T08:18:48.897Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 

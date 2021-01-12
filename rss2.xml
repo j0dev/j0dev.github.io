@@ -9,11 +9,38 @@
     <atom:link href="https://j0dev.github.io/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>j0dev dev blog :D</description>
-    <pubDate>Sat, 09 Jan 2021 06:06:53 GMT</pubDate>
+    <pubDate>Tue, 12 Jan 2021 08:19:06 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
-      <title>[SWMaestro] 소프트웨어 마에스트로 11기 프로젝트 과제기획 심의</title>
+      <title>[SW 마에스트로] 프로젝트 중간 평가</title>
+      <link>https://j0dev.github.io/2021/01/09/swmaestro-4/</link>
+      <guid>https://j0dev.github.io/2021/01/09/swmaestro-4/</guid>
+      <pubDate>Sat, 09 Jan 2021 09:07:06 GMT</pubDate>
+      
+      <description>&lt;p&gt;&lt;strong&gt;[중간 평가]&lt;/strong&gt;&lt;/p&gt;</description>
+      
+      
+      
+      <content:encoded><![CDATA[<p><strong>[중간 평가]</strong></p><h1 id="들어가며"><a href="#들어가며" class="headerlink" title="들어가며"></a><strong>들어가며</strong></h1><p>기획 평가가 끝나고 곧바로 프로젝트를 진행했다.</p><p>대략 1~2개월 (한달 반) 정도 프로젝트를 진행하고 중간평가를 실시했다.</p><p>소프트웨어 마에스트로 수행 과정을 간략하게 설명하면 다음과 같다.</p><ol><li>팀빌딩 (팀원 선정, 멘토 선정)</li><li>주제 선정</li><li>프로젝트  과제 기획 심의</li><li><strong>프로젝트 중간 평가</strong></li><li>프로젝트 최종 평가</li></ol><h1 id="7월"><a href="#7월" class="headerlink" title="7월"></a>7월</h1><h2 id="프로젝트-관리"><a href="#프로젝트-관리" class="headerlink" title="프로젝트 관리"></a>프로젝트 관리</h2><h2 id="멘토링"><a href="#멘토링" class="headerlink" title="멘토링"></a>멘토링</h2><h2 id="프로젝트-진행"><a href="#프로젝트-진행" class="headerlink" title="프로젝트 진행"></a>프로젝트 진행</h2><h1 id="8월"><a href="#8월" class="headerlink" title="8월"></a>8월</h1><h2 id="회식"><a href="#회식" class="headerlink" title="회식"></a>회식</h2><h2 id="중간평가-준비"><a href="#중간평가-준비" class="headerlink" title="중간평가 준비"></a>중간평가 준비</h2><h2 id="중간평가"><a href="#중간평가" class="headerlink" title="중간평가"></a>중간평가</h2>]]></content:encoded>
+      
+      
+      <category domain="https://j0dev.github.io/categories/swmaestro/">swmaestro</category>
+      
+      
+      <category domain="https://j0dev.github.io/tags/swmaestro/">swmaestro</category>
+      
+      <category domain="https://j0dev.github.io/tags/%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4%EB%A7%88%EC%97%90%EC%8A%A4%ED%8A%B8%EB%A1%9C/">소프트웨어마에스트로</category>
+      
+      <category domain="https://j0dev.github.io/tags/project/">project</category>
+      
+      
+      <comments>https://j0dev.github.io/2021/01/09/swmaestro-4/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>[SW 마에스트로] 프로젝트 과제기획 심의</title>
       <link>https://j0dev.github.io/2021/01/08/swmaestro-3/</link>
       <guid>https://j0dev.github.io/2021/01/08/swmaestro-3/</guid>
       <pubDate>Fri, 08 Jan 2021 09:07:06 GMT</pubDate>
@@ -40,7 +67,7 @@
     </item>
     
     <item>
-      <title>[SWMaestro] 소프트웨어 마에스트로 11기 팀빌딩 및 프로젝트 준비</title>
+      <title>[SW 마에스트로] 팀빌딩 및 프로젝트 준비</title>
       <link>https://j0dev.github.io/2020/10/28/swmaestro-2/</link>
       <guid>https://j0dev.github.io/2020/10/28/swmaestro-2/</guid>
       <pubDate>Tue, 27 Oct 2020 16:20:06 GMT</pubDate>
@@ -67,7 +94,7 @@
     </item>
     
     <item>
-      <title>[SWMaestro] 소프트웨어 마에스트로 11기 준비과정~합격후기</title>
+      <title>[SW 마에스트로] 소프트웨어 마에스트로 11기 준비과정~합격후기</title>
       <link>https://j0dev.github.io/2020/10/27/swmaestro-1/</link>
       <guid>https://j0dev.github.io/2020/10/27/swmaestro-1/</guid>
       <pubDate>Mon, 26 Oct 2020 16:20:06 GMT</pubDate>
