@@ -1,10 +1,10 @@
 <!doctype html>
-<html lang="ko"><head><meta charset="utf-8"><meta name="generator" content="Hexo 4.2.1"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta name="description" content="J0DEV&#039;s DEV Blog"><meta name="google-site-verification" content="FAMtXoEucvJoKd1yxKeP7G2UuJcs34Ij4EDzy-b2Ing"><meta name="naver-site-verification" content="865dd5683646e1dfe83df3a284f8c2f43cbdebc0"><meta><title>[SW 마에스트로] 프로젝트 중간 평가 - J0DEV&#039;s DEV BLOG</title><meta description="blog"><meta property="og:type" content="blog"><meta property="og:title" content="j0dev&#039;s blog"><meta property="og:url" content="https://j0dev.github.io/"><meta property="og:site_name" content="J0DEV"><meta property="og:description" content="blog"><meta property="og:locale" content="ko_KR"><meta property="og:image" content="https://j0dev.github.io/img/asdf.png"><meta property="article:published_time" content="2021-01-09T09:07:06.000Z"><meta property="article:modified_time" content="2021-01-12T08:19:06.027Z"><meta property="article:author" content="j0dev"><meta property="article:tag" content="swmaestro"><meta property="article:tag" content="소프트웨어마에스트로"><meta property="article:tag" content="project"><meta property="twitter:card" content="summary"><meta property="twitter:image" content="/img/asdf.png"><script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://j0dev.github.io"},"headline":"j0dev's blog","image":["https://j0dev.github.io/img/asdf.png"],"datePublished":"2021-01-09T09:07:06.000Z","dateModified":"2021-01-12T08:19:06.027Z","author":{"@type":"Person","name":"@j0dev"},"description":"dev dev dev"}</script><link rel="canonical" href="https://j0dev.github.io/2021/01/09/swmaestro-4/"><link rel="icon" href="https://j0dev.github.io/img/asdf.png"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@9.12.0/styles/atom-one-light.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;600&amp;family=Source+Code+Pro"><link rel="stylesheet" href="https://j0dev.github.io/css/default.css"><style>body>.footer,body>.navbar,body>.section{opacity:0}</style><!--!--><!--!--><!--!--><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@1.6.8/dist/css/lightgallery.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/css/justifiedGallery.min.css"><script src="https://www.googletagmanager.com/gtag/js?id=G-EB001R088N" async></script><script>window.dataLayer = window.dataLayer || [];
+<html lang="ko"><head><meta charset="utf-8"><meta name="generator" content="Hexo 4.2.1"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta name="description" content="J0DEV&#039;s DEV Blog"><meta name="google-site-verification" content="FAMtXoEucvJoKd1yxKeP7G2UuJcs34Ij4EDzy-b2Ing"><meta name="naver-site-verification" content="865dd5683646e1dfe83df3a284f8c2f43cbdebc0"><meta><title>[SW 마에스트로] 프로젝트 중간 평가 - J0DEV&#039;s DEV BLOG</title><meta description="blog"><meta property="og:type" content="blog"><meta property="og:title" content="j0dev&#039;s blog"><meta property="og:url" content="https://j0dev.github.io/"><meta property="og:site_name" content="J0DEV"><meta property="og:description" content="blog"><meta property="og:locale" content="ko_KR"><meta property="og:image" content="https://j0dev.github.io/img/asdf.png"><meta property="article:published_time" content="2021-01-09T09:07:06.000Z"><meta property="article:modified_time" content="2021-01-13T12:16:39.871Z"><meta property="article:author" content="j0dev"><meta property="article:tag" content="swmaestro"><meta property="article:tag" content="소프트웨어마에스트로"><meta property="article:tag" content="project"><meta property="twitter:card" content="summary"><meta property="twitter:image" content="/img/asdf.png"><script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://j0dev.github.io"},"headline":"j0dev's blog","image":["https://j0dev.github.io/img/asdf.png"],"datePublished":"2021-01-09T09:07:06.000Z","dateModified":"2021-01-13T12:16:39.871Z","author":{"@type":"Person","name":"@j0dev"},"description":"dev dev dev"}</script><link rel="canonical" href="https://j0dev.github.io/2021/01/09/swmaestro-4/"><link rel="icon" href="https://j0dev.github.io/img/asdf.png"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@9.12.0/styles/atom-one-light.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;600&amp;family=Source+Code+Pro"><link rel="stylesheet" href="https://j0dev.github.io/css/default.css"><style>body>.footer,body>.navbar,body>.section{opacity:0}</style><!--!--><!--!--><!--!--><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@1.6.8/dist/css/lightgallery.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/css/justifiedGallery.min.css"><script src="https://www.googletagmanager.com/gtag/js?id=G-EB001R088N" async></script><script>window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
     
         gtag('config', 'G-EB001R088N');</script><!--!--><script src="https://cdn.jsdelivr.net/npm/pace-js@1.0.2/pace.min.js"></script><link rel="alternate" href="https://j0dev.github.io/rss2.xml" title="J0DEV's DEV BLOG" type="application/rss+xml">
-</head><body class="is-2-column"><nav class="navbar navbar-main"><div class="container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="https://j0dev.github.io/"><img src="https://j0dev.github.io/img/asdf.png" alt="J0DEV&#039;s DEV BLOG" height="28"></a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="https://j0dev.github.io/">Home</a><a class="navbar-item" href="https://j0dev.github.io/archives">Archives</a><a class="navbar-item" href="https://j0dev.github.io/categories">Categories</a><a class="navbar-item" href="https://j0dev.github.io/tags">Tags</a><a class="navbar-item" href="https://j0dev.github.io/2020/08/10/about/">About</a></div><div class="navbar-end"><a class="navbar-item is-hidden-tablet catalogue" title="카탈로그" href="javascript:;"><i class="fas fa-list-ul"></i></a><a class="navbar-item search" title="검색" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-8-tablet is-8-desktop is-8-widescreen"><div class="card"><div class="card-image"><span class="image is-7by3"><img class="thumbnail" src="https://j0dev.github.io/2021/01/09/swmaestro-4/image1.jpg" alt="[SW 마에스트로] 프로젝트 중간 평가"></span></div><article class="card-content article" role="article"><div class="article-meta size-small is-uppercase level is-mobile"><div class="level-left"><time class="level-item" datetime="2021-01-09T09:07:06.000Z" title="2021-01-09T09:07:06.000Z">2021-01-09</time><span class="level-item"><a class="link-muted" href="https://j0dev.github.io/categories/swmaestro/">swmaestro</a></span><span class="level-item">1분 읽기 (대략 153 단어)</span></div></div><h1 class="title is-3 is-size-4-mobile">[SW 마에스트로] 프로젝트 중간 평가</h1><div class="content"><p><strong>[중간 평가]</strong></p>
+</head><body class="is-2-column"><nav class="navbar navbar-main"><div class="container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="https://j0dev.github.io/"><img src="https://j0dev.github.io/img/asdf.png" alt="J0DEV&#039;s DEV BLOG" height="28"></a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="https://j0dev.github.io/">Home</a><a class="navbar-item" href="https://j0dev.github.io/archives">Archives</a><a class="navbar-item" href="https://j0dev.github.io/categories">Categories</a><a class="navbar-item" href="https://j0dev.github.io/tags">Tags</a><a class="navbar-item" href="https://j0dev.github.io/2020/08/10/about/">About</a></div><div class="navbar-end"><a class="navbar-item is-hidden-tablet catalogue" title="카탈로그" href="javascript:;"><i class="fas fa-list-ul"></i></a><a class="navbar-item search" title="검색" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-8-tablet is-8-desktop is-8-widescreen"><div class="card"><div class="card-image"><span class="image is-7by3"><img class="thumbnail" src="https://j0dev.github.io/2021/01/09/swmaestro-4/image1.jpg" alt="[SW 마에스트로] 프로젝트 중간 평가"></span></div><article class="card-content article" role="article"><div class="article-meta size-small is-uppercase level is-mobile"><div class="level-left"><time class="level-item" datetime="2021-01-09T09:07:06.000Z" title="2021-01-09T09:07:06.000Z">2021-01-09</time><span class="level-item"><a class="link-muted" href="https://j0dev.github.io/categories/swmaestro/">swmaestro</a></span><span class="level-item">14분 읽기 (대략 2052 단어)</span></div></div><h1 class="title is-3 is-size-4-mobile">[SW 마에스트로] 프로젝트 중간 평가</h1><div class="content"><p><strong>[중간 평가]</strong></p>
 <h1 id="들어가며"><a href="#들어가며" class="headerlink" title="들어가며"></a><strong>들어가며</strong></h1><p>기획 평가가 끝나고 곧바로 프로젝트를 진행했다.</p>
 <p>대략 1~2개월 (한달 반) 정도 프로젝트를 진행하고 중간평가를 실시했다.</p>
 <p>소프트웨어 마에스트로 수행 과정을 간략하게 설명하면 다음과 같다.</p>
@@ -15,7 +15,123 @@
 <li><strong>프로젝트 중간 평가</strong></li>
 <li>프로젝트 최종 평가</li>
 </ol>
-<h1 id="7월"><a href="#7월" class="headerlink" title="7월"></a>7월</h1><h2 id="프로젝트-관리"><a href="#프로젝트-관리" class="headerlink" title="프로젝트 관리"></a>프로젝트 관리</h2><h2 id="멘토링"><a href="#멘토링" class="headerlink" title="멘토링"></a>멘토링</h2><h2 id="프로젝트-진행"><a href="#프로젝트-진행" class="headerlink" title="프로젝트 진행"></a>프로젝트 진행</h2><h1 id="8월"><a href="#8월" class="headerlink" title="8월"></a>8월</h1><h2 id="회식"><a href="#회식" class="headerlink" title="회식"></a>회식</h2><h2 id="중간평가-준비"><a href="#중간평가-준비" class="headerlink" title="중간평가 준비"></a>중간평가 준비</h2><h2 id="중간평가"><a href="#중간평가" class="headerlink" title="중간평가"></a>중간평가</h2></div><div class="article-tags size-small mb-4"><span class="mr-2">#</span><a class="link-muted mr-2" rel="tag" href="https://j0dev.github.io/tags/swmaestro/">swmaestro</a><a class="link-muted mr-2" rel="tag" href="https://j0dev.github.io/tags/%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4%EB%A7%88%EC%97%90%EC%8A%A4%ED%8A%B8%EB%A1%9C/">소프트웨어마에스트로</a><a class="link-muted mr-2" rel="tag" href="https://j0dev.github.io/tags/project/">project</a></div><!--!--></article></div><!--!--><nav class="post-navigation mt-4 level is-mobile"><div class="level-end"><a class="article-nav-next level level-item link-muted" href="https://j0dev.github.io/2021/01/08/swmaestro-3/"><span class="level-item">[SW 마에스트로] 프로젝트 과제기획 심의</span><i class="level-item fas fa-chevron-right"></i></a></div></nav><div class="card"><div class="card-content"><h3 class="title is-5">댓글</h3><div id="disqus_thread"><noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript></div><script>var disqus_config = function () {
+<h1 id="7월"><a href="#7월" class="headerlink" title="7월"></a>7월</h1><h2 id="프로젝트-관리"><a href="#프로젝트-관리" class="headerlink" title="프로젝트 관리"></a>프로젝트 관리</h2><p>코로나로 인해 오프라인 미팅이 제한적으로 진행되었다.</p>
+<p>따라서, 온라인 회의를 자주 해야했고, 이에 따라 프로젝트를 관리할 도구 또는 플랫폼들이 필요했다.</p>
+<p>몇몇 무료 도구들을 찾아 짧게나마 사용해보고 3가지 분류로 나누어 선택했다.</p>
+<ol>
+<li>의사소통<ul>
+<li>Slack, Hangouts, Zoom</li>
+<li>Slack을 사용하여 대화와 여러 알림들을 확인하였다.</li>
+<li>Hangouts은 주로 멘토링이 아닌 팀원들끼리 회의할 때 사용하였다.</li>
+<li>Zoom은 온라인 멘토링 진행 시 사용하였다.</li>
+</ul>
+</li>
+<li>테스크 관리<ul>
+<li>Trello, Monday</li>
+<li>처음에는 Trello를 사용했지만, Monday로 변경하였다.</li>
+</ul>
+</li>
+<li>이슈 관리<ul>
+<li>Monday, GitLab</li>
+<li>개발과 관련된 내용은 주로 GitLab을 사용하였다.</li>
+<li>프로젝트와 관련된 내용은 Monday를 사용하였다.</li>
+<li>소프트마에스트로 활동 기간동안 팀마다 GitLab 레포를 지원해준다.</li>
+</ul>
+</li>
+</ol>
+<img src="/2021/01/09/swmaestro-4/image2.PNG" alt="monday" style="zoom:25%;">
+
+
+
+<h2 id="멘토링"><a href="#멘토링" class="headerlink" title="멘토링"></a>멘토링</h2><p>소프트웨어 마에스트로 활동 내에 연수생이 꼭 지켜야할 내용들이 있다.</p>
+<p>그 중 하나가 멘토링이다.</p>
+<p>한 팀당 2주에 3번이상 멘토링을 진행해야 하며</p>
+<p>(3번 모두 다른 멘토님들과 멘토링을 진행해야한다.)</p>
+<p>1명의 멘토님, 2명이상의 팀원이 참여해야 멘토링으로 인정된다.</p>
+<p>만약 멘토링을 제대로 진행하지 않으면 경고를 받게 된다.</p>
+<p>(경고를 받게되면 불이익이 생기니 일정관리를 잘 해야한다.)</p>
+<p>팀당 4~5명의 멘토님들이 계시니 일정만 잘 관리하면 된다.</p>
+<p>우리팀은 거의 매주에 2번이상 멘토링을 진행했었다.</p>
+<p>처음에는 ZOOM을 이용했는데 프로젝트가 종료될 쯤</p>
+<p>소마 센터에서 cisco 솔루션을 도입하여 webex를 사용하게끔 하였다.</p>
+<h2 id="프로젝트-진행"><a href="#프로젝트-진행" class="headerlink" title="프로젝트 진행"></a>프로젝트 진행</h2><p>기획 심사 피드백 내용을 바탕으로 다시 프로젝트를 점검하였다.</p>
+<p>우리 팀은 IoT 프로젝트를 진행하였기 때문에 필요한 부품을 구매해야했고</p>
+<p>필요한 제품을 선정하여 구매 신청을 센터에 요청했다.</p>
+<p><del>(파손을 대비하여 여유분까지 같이 신청하는게 좋다.)</del></p>
+<p><img src="/2021/01/09/swmaestro-4/image3.jpg" alt="회의 - 외부 스터디룸"></p>
+<p>또한 우리팀은 프로젝트 개발 영역을 HW, AI, SERVICE로 3가지로 나누어 역할을 분배했다.</p>
+<p>7월 내내 아키텍처를 수정하고 자료조사 및 연구를 진행하였다.</p>
+<p><img src="/2021/01/09/swmaestro-4/image1.jpg" alt="회의 - 센터 회의실"></p>
+<p>이것 저것 테스트하고 공부하다 막히는 부분이 있으면 멘토링 시간을 활용해 멘토님들에게 조언을 구하였다.</p>
+<h1 id="8월"><a href="#8월" class="headerlink" title="8월"></a>8월</h1><h2 id="프로젝트-진행-1"><a href="#프로젝트-진행-1" class="headerlink" title="프로젝트 진행"></a>프로젝트 진행</h2><h3 id="부품-도착"><a href="#부품-도착" class="headerlink" title="부품 도착"></a>부품 도착</h3><p>생각보다 신청한 부품들이 늦게 도착했다.</p>
+<p>8월 첫째 주가 되어서 부품을 받을 수 있었는데, 이때가 프로젝트 중간 발표 3~4주전이었다.</p>
+<p>다행히 부품이 늦게 배송할 것을 생각하고, 멘토님과 HW를 담당하는 팀원이 따로 가지고 있는 장비로 테스트를 진행하고 있었다.</p>
+<p>(이때 참 놀라웠던게, HW를 담당하는 친구와 멘토님이 “드론 필요하겠지?” 하시고는 드론 부품을 주문하였고 부품이 도착하자마자 몇일만에 뚝딱하고 드론을 만들어 오셨다.)</p>
+<p><img src="/2021/01/09/swmaestro-4/image4.PNG" alt="뚝딲하고 만들어온 드론"></p>
+<p>부품이 도착하자마자 몇몇 테스트를 거친 후, 3D 프린터로 프로토타입을 제작하였다.</p>
+<p>(이것도 HW를 담당한 팀원이 뚝딱하고 만들어 왔다.)</p>
+<img src="/2021/01/09/swmaestro-4/image9.jpg" alt="프로토타입" style="zoom:25%;">
+
+
+
+<h3 id="개발"><a href="#개발" class="headerlink" title="개발"></a>개발</h3><p>각자 열심히 개발을 하고 있는데 문제가 발생했다.러닝 서버의 파워가 부족해서 학습 도중 서버가 죽어버린다….</p>
+<p><del>(결국, 새로 파워를 사서 교체하였다.)</del></p>
+<img src="/2021/01/09/swmaestro-4/image5.jpg" alt="파워 교체 중..." style="zoom: 25%;">
+
+<p>이런저런 발생하는 문제들을 해결하면서 개발을 진행하다보니 어느정도 윤곽이 나오기 시작했다.</p>
+<h3 id="공동연구"><a href="#공동연구" class="headerlink" title="공동연구"></a>공동연구</h3><p>프로젝트를 진행하는데 필요한 정보들은 많은데 이를 수집하는데 시간과 인력이 부족하였다.</p>
+<p>뿐만 아니라, 프로젝트와 관련된 소방분야에 대한 지식이 부족하여 프로젝트 진행에 문제가 발생하기도 했다.</p>
+<p>다행히 기획심사때 연락했던 국립소방연구원에서 우리 팀을 좋게 평가해주어 공동연구를 진행할 수 있었다.</p>
+<h2 id="중간평가-준비"><a href="#중간평가-준비" class="headerlink" title="중간평가 준비"></a>중간평가 준비</h2><p>중간평가가 다가왔다. 팀원들 모두 잠을 안잔다 ㅋㅋㅋ</p>
+<p>각자 남은 테스크를 끝낸다고 정신이 없다.</p>
+<p>내가 맡은 역할은 어느정도 마무리 되었지만, PPT 및 서류를 준비해야 했다.</p>
+<p>뿐만 아니라 시연 영상까지 준비해야했다.</p>
+<p><img src="/2021/01/09/swmaestro-4/image6.PNG" alt="기획심사 발표 준비 과정"></p>
+<p>7번 과정을 계속 수행하고 있는데 갑자기 소마 센터에서 문자 하나가 도착했다.</p>
+<img src="/2021/01/09/swmaestro-4/image7.jpg" alt="충격과 공포" style="zoom: 50%;">
+
+
+
+<p>중간평가는 27~28일인데 이 문자는 25일 오전 10시 33분에 발송되었다.</p>
+<p>문자 내용을 읽는 순간, 뇌가 생각하기를 멈췄다.</p>
+<p>아마 우리팀뿐만 아니라 거의 모든 팀이 발표 위주의 PPT를 준비했을 것이다.</p>
+<p>그런데 갑자기 발표를 하지 않고 서면으로 평가한다.</p>
+<p>PPT를 싹다 갈아엎었다.</p>
+<p>이때 팀뿐만 아니라 멘토님들도 난리가 났었다.</p>
+<p>여러 대안들이 나왔는데</p>
+<blockquote>
+<ol>
+<li>PPT마다 발표 영상을 찍어서 영상을 첨부한다.</li>
+<li>PPT마다 발표 소리를 녹음하여 첨부한다.</li>
+<li>그 외 여러 대안들이 나왔던 것으로 안다.</li>
+</ol>
+</blockquote>
+<p>하지만 모두 제한당했고 영상은 데모(시연) 영상만 첨부 가능했다.</p>
+<p>공지가 되고 나서부터 우리팀은 잠을 안잤다.</p>
+<p>최종 PPT 제출 직전까지 팀원 모두 24시간 카페에 모여서 PPT를 만들었다.</p>
+<img src="/2021/01/09/swmaestro-4/image10.jpg" alt="24시 카페를 찾아 떠나는 여행" style="zoom: 25%;">
+
+
+
+<p>PPT 를 제출하고 다같이 근처 숙박업소에서 잠을 잤다. </p>
+<p>당일 오후에 멘토링 일정이 있어서 집에 갔다 오는 것보다 근처에서 자고 가는 게 좋을 것 같았다.</p>
+<p><del>(못일어나서 못갈수도 있으니깐…)</del></p>
+<img src="/2021/01/09/swmaestro-4/image8.jpg" alt="밤샘이 끝난 후" style="zoom: 25%;">
+
+
+
+
+
+<h2 id="중간평가"><a href="#중간평가" class="headerlink" title="중간평가"></a>중간평가</h2><p>중간 평가는 서면 심사 후, QnA만 온라인으로 진행되었다.</p>
+<p>정해진 시간에, 사전에 공지된 ZOOM 링크로 들어가서 기다리고 있으면 QnA가 시작된다.</p>
+<p>QnA는 20분정도 진행됬는데, 우리팀은 AI와 관련하여 질문을 많이 받았다.</p>
+<p>평가가 끝난 후, 결과가 안좋을 것이라는 생각이 들었다.</p>
+<p>평가 후, 몇주 뒤 평가피드백 자료를 받을 수 있었는데 아니나 다를까 안좋은 평가가 많았다.</p>
+<p>솔직히 중간평가 결과에 대해서 불만이 많았다.</p>
+<p>우리가 제출한 자료를 제대로 검토하지 않았다는 느낌을 많이 받았다.</p>
+<p>같은 분과에 속한 다른 팀들도 대부분 우리와 비슷한 상황이 대부분이라고 들었는데, 이미 엎질러진 물인데 뭐…</p>
+<p>중간 평가 피드백을 바탕으로 최종평가를 준비하는 수밖에 없었다.</p>
+</div><div class="article-tags size-small mb-4"><span class="mr-2">#</span><a class="link-muted mr-2" rel="tag" href="https://j0dev.github.io/tags/swmaestro/">swmaestro</a><a class="link-muted mr-2" rel="tag" href="https://j0dev.github.io/tags/%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4%EB%A7%88%EC%97%90%EC%8A%A4%ED%8A%B8%EB%A1%9C/">소프트웨어마에스트로</a><a class="link-muted mr-2" rel="tag" href="https://j0dev.github.io/tags/project/">project</a></div><!--!--></article></div><!--!--><nav class="post-navigation mt-4 level is-mobile"><div class="level-end"><a class="article-nav-next level level-item link-muted" href="https://j0dev.github.io/2021/01/08/swmaestro-3/"><span class="level-item">[SW 마에스트로] 프로젝트 과제기획 심의</span><i class="level-item fas fa-chevron-right"></i></a></div></nav><div class="card"><div class="card-content"><h3 class="title is-5">댓글</h3><div id="disqus_thread"><noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript></div><script>var disqus_config = function () {
             this.page.url = 'https://j0dev.github.io/2021/01/09/swmaestro-4/';
             this.page.identifier = '2021/01/09/swmaestro-4/';
         };
@@ -24,7 +140,7 @@
             s.src = '//' + 'https-j0dev-github-io' + '.disqus.com/embed.js';
             s.setAttribute('data-timestamp', +new Date());
             (d.head || d.body).appendChild(s);
-        })();</script></div></div></div><!--!--><div class="column column-right is-4-tablet is-4-desktop is-4-widescreen  order-3 is-sticky"><div class="card widget" id="toc"><div class="card-content"><div class="menu"><h3 class="menu-label">카탈로그</h3><ul class="menu-list"><li><a class="is-flex" href="#들어가며"><span class="mr-2">1</span><span>들어가며</span></a></li><li><a class="is-flex" href="#7월"><span class="mr-2">2</span><span>7월</span></a><ul class="menu-list"><li><a class="is-flex" href="#프로젝트-관리"><span class="mr-2">2.1</span><span>프로젝트 관리</span></a></li><li><a class="is-flex" href="#멘토링"><span class="mr-2">2.2</span><span>멘토링</span></a></li><li><a class="is-flex" href="#프로젝트-진행"><span class="mr-2">2.3</span><span>프로젝트 진행</span></a></li></ul></li><li><a class="is-flex" href="#8월"><span class="mr-2">3</span><span>8월</span></a><ul class="menu-list"><li><a class="is-flex" href="#회식"><span class="mr-2">3.1</span><span>회식</span></a></li><li><a class="is-flex" href="#중간평가-준비"><span class="mr-2">3.2</span><span>중간평가 준비</span></a></li><li><a class="is-flex" href="#중간평가"><span class="mr-2">3.3</span><span>중간평가</span></a></li></ul></li></ul></div></div></div><div class="card widget"><div class="card-content"><div class="menu"><h3 class="menu-label">카테고리</h3><ul class="menu-list"><li><a class="level is-mobile is-marginless" href="https://j0dev.github.io/categories/profile/"><span class="level-start"><span class="level-item">profile</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile is-marginless" href="https://j0dev.github.io/categories/react/"><span class="level-start"><span class="level-item">react</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile is-marginless" href="https://j0dev.github.io/categories/swmaestro/"><span class="level-start"><span class="level-item">swmaestro</span></span><span class="level-end"><span class="level-item tag">4</span></span></a></li></ul></div></div></div><div class="card widget"><div class="card-content"><div class="menu"><h3 class="menu-label">아카이브</h3><ul class="menu-list"><li><a class="level is-mobile is-marginless" href="https://j0dev.github.io/archives/2021/01/"><span class="level-start"><span class="level-item">1월 2021</span></span><span class="level-end"><span class="level-item tag">2</span></span></a></li><li><a class="level is-mobile is-marginless" href="https://j0dev.github.io/archives/2020/10/"><span class="level-start"><span class="level-item">10월 2020</span></span><span class="level-end"><span class="level-item tag">2</span></span></a></li><li><a class="level is-mobile is-marginless" href="https://j0dev.github.io/archives/2020/08/"><span class="level-start"><span class="level-item">8월 2020</span></span><span class="level-end"><span class="level-item tag">2</span></span></a></li></ul></div></div></div></div></div></div></section><footer class="footer"><div class="container"><div class="level"><div class="level-start"><a class="footer-logo is-block mb-2" href="https://j0dev.github.io/"><img src="https://j0dev.github.io/img/asdf.png" alt="J0DEV&#039;s DEV BLOG" height="28"></a><p class="size-small"><span>&copy; 2021 WooSeok Cho</span>  Powered by <a href="https://hexo.io/" target="_blank" rel="external nofollow noopener noreferrer">Hexo</a> &amp; <a href="https://github.com/ppoffice/hexo-theme-icarus" target="_blank" rel="external nofollow noopener noreferrer">Icarus</a></p></div><div class="level-end"><div class="field has-addons"><p class="control"><a class="button is-transparent is-large" target="_blank" rel="external nofollow noopener noreferrer" title="Creative Commons" href="https://creativecommons.org/"><i class="fab fa-creative-commons"></i></a></p><p class="control"><a class="button is-transparent is-large" target="_blank" rel="external nofollow noopener noreferrer" title="Attribution 4.0 International" href="https://creativecommons.org/licenses/by/4.0/"><i class="fab fa-creative-commons-by"></i></a></p><p class="control"><a class="button is-transparent is-large" target="_blank" rel="external nofollow noopener noreferrer" title="Download on GitHub" href="https://github.com/j0dev"><i class="fab fa-github"></i></a></p></div></div></div></div></footer><script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/moment@2.22.2/min/moment-with-locales.min.js"></script><script>moment.locale("ko");</script><script>var IcarusThemeSettings = {
+        })();</script></div></div></div><!--!--><div class="column column-right is-4-tablet is-4-desktop is-4-widescreen  order-3 is-sticky"><div class="card widget" id="toc"><div class="card-content"><div class="menu"><h3 class="menu-label">카탈로그</h3><ul class="menu-list"><li><a class="is-flex" href="#들어가며"><span class="mr-2">1</span><span>들어가며</span></a></li><li><a class="is-flex" href="#7월"><span class="mr-2">2</span><span>7월</span></a><ul class="menu-list"><li><a class="is-flex" href="#프로젝트-관리"><span class="mr-2">2.1</span><span>프로젝트 관리</span></a></li><li><a class="is-flex" href="#멘토링"><span class="mr-2">2.2</span><span>멘토링</span></a></li><li><a class="is-flex" href="#프로젝트-진행"><span class="mr-2">2.3</span><span>프로젝트 진행</span></a></li></ul></li><li><a class="is-flex" href="#8월"><span class="mr-2">3</span><span>8월</span></a><ul class="menu-list"><li><a class="is-flex" href="#프로젝트-진행-1"><span class="mr-2">3.1</span><span>프로젝트 진행</span></a><ul class="menu-list"><li><a class="is-flex" href="#부품-도착"><span class="mr-2">3.1.1</span><span>부품 도착</span></a></li><li><a class="is-flex" href="#개발"><span class="mr-2">3.1.2</span><span>개발</span></a></li><li><a class="is-flex" href="#공동연구"><span class="mr-2">3.1.3</span><span>공동연구</span></a></li></ul></li><li><a class="is-flex" href="#중간평가-준비"><span class="mr-2">3.2</span><span>중간평가 준비</span></a></li><li><a class="is-flex" href="#중간평가"><span class="mr-2">3.3</span><span>중간평가</span></a></li></ul></li></ul></div></div></div><div class="card widget"><div class="card-content"><div class="menu"><h3 class="menu-label">카테고리</h3><ul class="menu-list"><li><a class="level is-mobile is-marginless" href="https://j0dev.github.io/categories/profile/"><span class="level-start"><span class="level-item">profile</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile is-marginless" href="https://j0dev.github.io/categories/react/"><span class="level-start"><span class="level-item">react</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile is-marginless" href="https://j0dev.github.io/categories/swmaestro/"><span class="level-start"><span class="level-item">swmaestro</span></span><span class="level-end"><span class="level-item tag">4</span></span></a></li></ul></div></div></div><div class="card widget"><div class="card-content"><div class="menu"><h3 class="menu-label">아카이브</h3><ul class="menu-list"><li><a class="level is-mobile is-marginless" href="https://j0dev.github.io/archives/2021/01/"><span class="level-start"><span class="level-item">1월 2021</span></span><span class="level-end"><span class="level-item tag">2</span></span></a></li><li><a class="level is-mobile is-marginless" href="https://j0dev.github.io/archives/2020/10/"><span class="level-start"><span class="level-item">10월 2020</span></span><span class="level-end"><span class="level-item tag">2</span></span></a></li><li><a class="level is-mobile is-marginless" href="https://j0dev.github.io/archives/2020/08/"><span class="level-start"><span class="level-item">8월 2020</span></span><span class="level-end"><span class="level-item tag">2</span></span></a></li></ul></div></div></div></div></div></div></section><footer class="footer"><div class="container"><div class="level"><div class="level-start"><a class="footer-logo is-block mb-2" href="https://j0dev.github.io/"><img src="https://j0dev.github.io/img/asdf.png" alt="J0DEV&#039;s DEV BLOG" height="28"></a><p class="size-small"><span>&copy; 2021 WooSeok Cho</span>  Powered by <a href="https://hexo.io/" target="_blank" rel="external nofollow noopener noreferrer">Hexo</a> &amp; <a href="https://github.com/ppoffice/hexo-theme-icarus" target="_blank" rel="external nofollow noopener noreferrer">Icarus</a></p></div><div class="level-end"><div class="field has-addons"><p class="control"><a class="button is-transparent is-large" target="_blank" rel="external nofollow noopener noreferrer" title="Creative Commons" href="https://creativecommons.org/"><i class="fab fa-creative-commons"></i></a></p><p class="control"><a class="button is-transparent is-large" target="_blank" rel="external nofollow noopener noreferrer" title="Attribution 4.0 International" href="https://creativecommons.org/licenses/by/4.0/"><i class="fab fa-creative-commons-by"></i></a></p><p class="control"><a class="button is-transparent is-large" target="_blank" rel="external nofollow noopener noreferrer" title="Download on GitHub" href="https://github.com/j0dev"><i class="fab fa-github"></i></a></p></div></div></div></div></footer><script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/moment@2.22.2/min/moment-with-locales.min.js"></script><script>moment.locale("ko");</script><script>var IcarusThemeSettings = {
             site: {
                 url: 'https://j0dev.github.io',
                 external_link: {"enable":true,"exclude":[]}
@@ -35,7 +151,7 @@
                     fold: 'unfolded'
                 }
             }
-        };</script><script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.4/dist/clipboard.min.js" defer></script><script src="https://j0dev.github.io/js/animation.js"></script><a id="back-to-top" title="Back to Top" href="javascript:;"><i class="fas fa-chevron-up"></i></a><script src="https://j0dev.github.io/js/back_to_top.js" defer></script><!--!--><!--!--><script src="https://cdn.jsdelivr.net/npm/lightgallery@1.6.8/dist/js/lightgallery.min.js" defer></script><script src="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/js/jquery.justifiedGallery.min.js" defer></script><script>window.addEventListener("load", () => {
+        };</script><script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.4/dist/clipboard.min.js" defer></script><script src="https://j0dev.github.io/js/animation.js"></script><a id="back-to-top" title="Zurück nach oben" href="javascript:;"><i class="fas fa-chevron-up"></i></a><script src="https://j0dev.github.io/js/back_to_top.js" defer></script><!--!--><!--!--><script src="https://cdn.jsdelivr.net/npm/lightgallery@1.6.8/dist/js/lightgallery.min.js" defer></script><script src="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/js/jquery.justifiedGallery.min.js" defer></script><script>window.addEventListener("load", () => {
             if (typeof $.fn.lightGallery === 'function') {
                 $('.article').lightGallery({ selector: '.gallery-item' });
             }
